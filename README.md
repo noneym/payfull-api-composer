@@ -1,18 +1,25 @@
-
 [![Api Dökümantasyonu için](https://payfull.com/api-docs/index.html)]
 
 Payfull üyeliği açmak için https://payfull.com
 
-# Gereklilikler 
+# Gereklilikler
 
 PHP 5.6 ve sonrası
 
-# Yükleme 
+# Yükleme
+
+### Composer ile Yükleme
+
+Aşağıdaki komutla paketi Composer ile yükleyebilirsiniz:
+
+```bash
+composer require noneym/payfull-api-composer
+```
 
 ### Manuel Yükleme
 
 ```php
-require_once('/dosyanın/bulunduğu/yol/PayfullClient/src/Payfull/loader.php); 
+require_once('/dosyanın/bulunduğu/yol/PayfullClient/src/Payfull/loader.php);
 ```
 
 #Kullanım
@@ -67,29 +74,29 @@ print_r($response);
 echo "</pre>";
 die;
 ```
-Daha fazla örnek görmek için `samples` klasörü içerisine girebilirsiniz.
 
+Daha fazla örnek görmek için `samples` klasörü içerisine girebilirsiniz.
 
 ### Test Kartları Örneği
 
-Card Number      | Bank                       | Expiration Date         | CVC
------------      | ----                       | ---------               | ---------------
-4355084355084358 | AKBANK-VISA                | 12/2030                 | 000 
-5571135571135575 | AKBANK-MASTER              | 12/2030                 | 000  
-4402934402934406 | TEB-VISA                   | 12/2030                 | 000 
-5101385101385104 | TEB-MASTER                 | 12/2030                 | 000
-4920244920244921 | HALKBANK-VISA              | 12/2030                 | 001
-5404355404355405 | HALKBANK-MASTER            | 12/2030                 | 001
-4022774022774026 | FINANSBANK-VISA            | 12/2030                 | 000  
-5456165456165454 | FINANSBANK-MASTER          | 12/2030                 | 000  
-4508034508034509 | ISBANK-VISA                | 12/2030                 | 000
-5406675406675403 | ISBANK-MASTER	          | 12/2030                 | 000
-4258464258464253 | ANADOLUBANK-VISA           | 12/2030                 | 000
-5222405222405229 | ANADOLUBANK-MASTER         | 12/2030                 | 000
-4025894025894022 | KUVEYTTURK-VISA            | 12/2030                 | 000
-4555714555714556 | INGBANK-VISA               | 12/2030                 | 000
-5400245400245409 | INGBANK-MASTER             | 12/2030                 | 000
-5342614723204016 | GARANTI                    | 01/2017                 | 753
-4506347048543223 | YKB                        | 12/2030                 | 000
+| Card Number      | Bank               | Expiration Date | CVC |
+| ---------------- | ------------------ | --------------- | --- |
+| 4355084355084358 | AKBANK-VISA        | 12/2030         | 000 |
+| 5571135571135575 | AKBANK-MASTER      | 12/2030         | 000 |
+| 4402934402934406 | TEB-VISA           | 12/2030         | 000 |
+| 5101385101385104 | TEB-MASTER         | 12/2030         | 000 |
+| 4920244920244921 | HALKBANK-VISA      | 12/2030         | 001 |
+| 5404355404355405 | HALKBANK-MASTER    | 12/2030         | 001 |
+| 4022774022774026 | FINANSBANK-VISA    | 12/2030         | 000 |
+| 5456165456165454 | FINANSBANK-MASTER  | 12/2030         | 000 |
+| 4508034508034509 | ISBANK-VISA        | 12/2030         | 000 |
+| 5406675406675403 | ISBANK-MASTER      | 12/2030         | 000 |
+| 4258464258464253 | ANADOLUBANK-VISA   | 12/2030         | 000 |
+| 5222405222405229 | ANADOLUBANK-MASTER | 12/2030         | 000 |
+| 4025894025894022 | KUVEYTTURK-VISA    | 12/2030         | 000 |
+| 4555714555714556 | INGBANK-VISA       | 12/2030         | 000 |
+| 5400245400245409 | INGBANK-MASTER     | 12/2030         | 000 |
+| 5342614723204016 | GARANTI            | 01/2017         | 753 |
+| 4506347048543223 | YKB                | 12/2030         | 000 |
 
 [![Daha fazla kart örneği için](https://payfull.com/api-docs/testCards.html)]
