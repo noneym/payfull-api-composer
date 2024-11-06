@@ -7,5 +7,7 @@
         "Payfull\\": "src/Payfull/"
     }
     },
-    "require": {}
+    "require": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
