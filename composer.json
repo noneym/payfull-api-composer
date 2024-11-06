@@ -1,0 +1,11 @@
+{
+    "name": "noneym/payfull-api-composer",
+    "description": "A Composer package for the Payfull API integration.",
+    "type": "library",
+    "autoload": {
+       "psr-4": {
+        "Payfull\\": "src/Payfull/"
+    }
+    },
+    "require": {}
+}
